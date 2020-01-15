@@ -22,7 +22,7 @@
       .container {
         margin-left: auto;
         margin-right: auto;
-        max-width: 640px;
+        max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
         text-align: center;
@@ -30,15 +30,17 @@
 
       .gallery {
         display: grid;
-        grid-gap: 24px 64px;
+        grid-gap: 24px 32px;
         grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
         margin-bottom: 128px;
         margin-top: 72px;
       }
 
       .gallery img {
+        border-radius: 4px;
         height: auto;
         width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
       }
 
       h1 {
@@ -48,18 +50,20 @@
       }
 
       h2 {
-        font-size: 1.2rem;
-        font-weight: normal;
+        font-size: 1rem;
+        font-weight: bold;
         line-height: 1.5;
-        margin: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 0.3rem;
       }
 
       h3 {
-        font-size: 1rem;
-        font-style: italic;
-        font-weight: lighter;
-        line-height: 1.5;
+        color: #616161;
+        font-size: 0.8rem;
+        font-weight: normal;
+        line-height: 1.2;
         margin: 0;
+        word-break: keep-all;
       }
 
       a {
@@ -92,12 +96,12 @@
           alt="Logo of Brown Eyed Girls"
         />
         <h2>Brown Eyed Girls</h2>
-        <h3>브라운 아이드 걸스, 브아걸, b.e.g</h3>
+        <h3>브라운 아이드 걸스 // 브아걸 // b.e.g</h3>
       </div>
       <div>
         <img src="./logos/clc.svg" width="512" height="512" alt="Logo of CLC" />
         <h2>CLC</h2>
-        <h3>씨엘씨, crystal clear</h3>
+        <h3>씨엘씨 // crystal clear</h3>
       </div>
       <div>
         <img
